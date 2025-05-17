@@ -2,79 +2,134 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Portfolio Detail</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Portfolio Detail - Mehtab Singh Sidhu</title>
+  <meta content="Portfolio showcasing machine learning, AI, and software development projects." name="description" />
+  <meta content="portfolio, machine learning, AI, software development, projects" name="keywords" />
 
   <!-- Favicons -->
-  <link href="C:\Users\Asus\Desktop\portfolio\portfolio\assets\img\MYphoto.jpeg" rel="icon">
-  <link href="C:\Users\Asus\Desktop\portfolio\portfolio\assets\img\MYphoto.jpeg" rel="apple-touch-icon">
+  <link href="assets/img/MYphoto.jpeg" rel="icon" />
+  <link href="assets/img/MYphoto.jpeg" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,600,700" rel="stylesheet" />
 
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-
   <main id="main">
-
     <!-- ======= Portfolio Details ======= -->
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
+        <h1 class="text-center mb-5">My Projects Portfolio</h1>
 
-        <div class="row">
+        <div class="row gy-5">
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">This is an example of my portfolio detail</h2>
-
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/argbancaria.png" alt="">
-                </div>
-
-
-              </div>
-              <div class="swiper-pagination"></div>
+          <!-- Project 1 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>License Plate Detection for Toll Surveillance</h2>
+              <img src="assets/img/portfolio/license_plate_detection.png" alt="License Plate Detection" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> Machine Learning / Computer Vision</li>
+                <li><strong>Technologies:</strong> Python, OpenCV, TensorFlow</li>
+                <li><strong>Description:</strong> Developed a robust license plate detection and recognition system for toll surveillance to automate vehicle monitoring.</li>
+              </ul>
+              <p><strong>Demo Video:</strong> <a href="https://youtu.be/example1" target="_blank" rel="noopener">Watch on YouTube</a></p>
             </div>
-
           </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Mobile Development</li>
-              <li><strong>Client</strong>: Radio 7 Estrellas de David</li>
-              <li><strong>Project date</strong>: 01 March, 2022</li>
-              <li><strong>Video URL Demostration</strong>: <a href="https://youtu.be/mqS74EYDwE0" target="_blank">Watch on YT</a></li>
-            </ul>
+          <!-- Project 2 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>Eatwell - Restaurant Reviewing Platform</h2>
+              <img src="assets/img/portfolio/eatwell_platform.png" alt="Eatwell Platform" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> Web Development / Full Stack</li>
+                <li><strong>Technologies:</strong> React, Node.js, MongoDB</li>
+                <li><strong>Description:</strong> Created a platform where users can review restaurants, share experiences, and rate meals.</li>
+              </ul>
+              <p><strong>Live Site:</strong> <a href="https://eatwell.example.com" target="_blank" rel="noopener">Visit Eatwell</a></p>
+            </div>
+          </div>
 
-            <p>
-              Updating ...
-            </p>
+          <!-- Project 3 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>Software Sanctuary - E-commerce Shop</h2>
+              <img src="assets/img/portfolio/software_sanctuary.png" alt="Software Sanctuary" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> E-commerce / Web Development</li>
+                <li><strong>Technologies:</strong> Shopify, Liquid, JavaScript</li>
+                <li><strong>Description:</strong> Developed an online store focused on software products with a clean UX and smooth checkout flow.</li>
+              </ul>
+              <p><strong>Store Link:</strong> <a href="https://software-sanctuary.example.com" target="_blank" rel="noopener">Visit Store</a></p>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>Movie Recommender System</h2>
+              <img src="assets/img/portfolio/movie_recommender.png" alt="Movie Recommender" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> Machine Learning / Recommendation System</li>
+                <li><strong>Technologies:</strong> Python, Scikit-learn, Flask</li>
+                <li><strong>Description:</strong> Built a recommendation engine that suggests movies based on user preferences and past ratings.</li>
+              </ul>
+              <p><strong>GitHub:</strong> <a href="https://github.com/mehtabsidhu/movie-recommender" target="_blank" rel="noopener">View Code</a></p>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>Travel Notebooks - AI Trip Planning Platform</h2>
+              <img src="assets/img/portfolio/travel_notebooks.png" alt="Travel Notebooks" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> AI / Web Application</li>
+                <li><strong>Technologies:</strong> Python, AI APIs, React</li>
+                <li><strong>Description:</strong> Developed an AI-powered trip planning platform that creates personalized travel itineraries.</li>
+              </ul>
+              <p><strong>Demo Video:</strong> <a href="https://youtu.be/example5" target="_blank" rel="noopener">Watch on YouTube</a></p>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-lg-6">
+            <div class="portfolio-details-card p-4 border rounded shadow-sm h-100">
+              <h2>Rainfall Prediction System</h2>
+              <img src="assets/img/portfolio/rainfall_prediction.png" alt="Rainfall Prediction" class="img-fluid my-3" />
+              <ul>
+                <li><strong>Category:</strong> Data Science / Machine Learning</li>
+                <li><strong>Technologies:</strong> Python, TensorFlow, Weather APIs</li>
+                <li><strong>Description:</strong> Created a predictive model to forecast rainfall patterns based on historical weather data.</li>
+              </ul>
+              <p><strong>GitHub:</strong> <a href="https://github.com/mehtabsidhu/rainfall-prediction" target="_blank" rel="noopener">View Code</a></p>
+            </div>
           </div>
 
         </div>
-
       </div>
-    </div><!-- End Portfolio Details -->
+    </div>
+    <!-- End Portfolio Details -->
+  </main>
+  <!-- End #main -->
 
-  </main><!-- End #main -->
-
-  <div class="credits">
-    Designed by <a href="https://linkedin.com/in/edxel-vargas-altamirano">dxgabalt</a>
+  <div class="credits text-center my-4">
+    Designed by <a href="https://linkedin.com/in/mehtab-singh-sidhu" target="_blank" rel="noopener">Mehtab Singh Sidhu</a>
   </div>
 
   <!-- Vendor JS Files -->
@@ -88,7 +143,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
